@@ -1,6 +1,15 @@
 .main-container {
   padding: 6rem 2rem 0rem 4rem;
+   display: flex;
+  float: none; 
+ flex-flow: row wrap;
+  -webkit-box-align: end;
+  align-items: flex-end;
+  justify-content: start;
+  gap: 26px;
+  flex: 1 1 auto; 
 }
+
 .item-box {
   width: 16rem;
   height: 27rem;
@@ -39,4 +48,5 @@
   border-radius: 4px;
   margin-left: 12rem;
   margin-top: 0.5rem;
+  padding:0.01rem
 }

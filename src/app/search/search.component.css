@@ -1,0 +1,23 @@
+.search-container {
+  margin-top: 1.4em;
+  display: flex;
+}
+.seach-input {
+  width: 16rem;
+  height: 2rem;
+  border-radius: 6px;
+  border: 1px solid rgb(117, 114, 114);
+  padding-left: 1rem;
+}
+.search-btn {
+  width: 6rem;
+  height: 2.2rem;
+  margin-left: 1rem;
+  background-color: #95182c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+.search-btn:hover {
+  background-color: #9a2438e5;
+}
