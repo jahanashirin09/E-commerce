@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import {Router} from '@angular/router'
 
 @Component({
   selector: 'app-list-item',
@@ -8,6 +9,7 @@ import { Component } from '@angular/core';
   styleUrl: './list-item.component.css',
 })
 export class ListItemComponent {
+  constructor(private router: Router) {}
   products = [
     {
       id: 1,
@@ -183,17 +185,15 @@ export class ListItemComponent {
     {
       id: 20,
       name: 'Apple Watch Series 10 GPS ',
-      description:
-        '46mm Retina OLED Display, Silver ',
+      description: '46mm Retina OLED Display, Silver ',
       image: '/i2watch.jpg',
       price: 800.0,
       instock: 10,
       discountprice: 400.0,
     },
   ];
-  
-  
-  constructor() {
-  
+
+  AddtoCart() {
+      this.router.navigate(['/cart']);
   }
 }
