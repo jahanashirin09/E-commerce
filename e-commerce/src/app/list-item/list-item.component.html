@@ -1,0 +1,18 @@
+<div class="main-container">
+  <div class="item-box" *ngFor="let product of products">
+    <div class="offer-tag">10%OFF</div>
+    <img class="item-image" src="{{ product.image }}" />
+    <div class="description-box">
+      <p>
+        <b>{{ product.name }}</b>
+      </p>
+      <p>{{ product.description }}</p>
+      <p>
+        <b>${{ product.price }}</b>
+      </p>
+    </div>
+    <div class="add-btn">
+      <button class="add-to-cart">Add to cart</button>
+    </div>
+  </div>
+</div>

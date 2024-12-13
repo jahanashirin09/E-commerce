@@ -1,0 +1,22 @@
+.filter-container{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   align-items: center;
+    align-items: center;
+    width: auto;
+    height: 2rem;
+
+}
+.filter-btn{
+    margin-left: 1.6rem;
+  width: 6rem;
+  height: 2.2rem;
+  background-color: #dbdada;
+  border: 1px solid rgb(153, 152, 152);
+  border-radius: 14px;
+}
+.filter-btn:hover{
+     background-color: #f5f3f3
+}

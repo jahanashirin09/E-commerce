@@ -1,0 +1,52 @@
+.main-container {
+  padding: 4rem 2rem 0rem 4rem;
+  display: flex;
+  float: none;
+  flex-flow: row wrap;
+  -webkit-box-align: end;
+  align-items: flex-end;
+  justify-content: start;
+  gap: 26px;
+  flex: 1 1 auto;
+}
+
+.item-box {
+  width: 16rem;
+  height: 27rem;
+  border: 2px solid rgb(178, 176, 176);
+  border-radius: 12px;
+}
+.item-image {
+  width: 10rem;
+  height: 12rem;
+  align-items: center;
+  margin: 0rem 3rem 2rem 3rem;
+}
+.add-btn {
+  margin: 0rem 1rem 1rem 2rem;
+}
+.add-to-cart {
+  width: 10rem;
+  height: 2.2rem;
+  margin-left: 1rem;
+  background-color: #95182c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+.add-to-cart:hover {
+  background-color: #9a2438e5;
+}
+.description-box {
+  text-align: center;
+  color: #7f7c7c;
+}
+.offer-tag {
+  background-color: rgb(248, 185, 11);
+  width: 4rem;
+  height: 1.4rem;
+  border-radius: 4px;
+  margin-left: 12rem;
+  margin-top: 0.5rem;
+  padding: 0.01rem;
+}
